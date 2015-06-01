@@ -78,13 +78,21 @@ h1, h2, h3, h4, h5, h6 {
     padding: 30px 60px;
     background-color: #fff;
 
+    text-align: center;
+}
+
+.info-section header h2 {
     font-zise: 28px;
     text-trasform: uppercase;
     letter-spacing: 3px;
 }
 
-.info-section header h2 {
-    text-align: center;
+.info-section h2:after {
+    content: "";
+    border-bottom: 3px solid black;   
+    width: 90px;
+    display: block;
+    margin: 0 auto;
 }
 
 .info-section__description {
