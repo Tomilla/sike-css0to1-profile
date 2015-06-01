@@ -18,18 +18,21 @@ body {
 .main-header__avatar {
     display: block;
     margin: 0 auto;
-    box-shadow: 0 0px 2px 1px rgba(0,0,0,0.2);
-    border-radius: 999px;
     margin-top: -70px;
-    margin-bottom: 10px;
+    border: 3px solid white;
+
+    border-radius: 999px;
+    box-shadow: 0 0px 2px 1px rgba(0,0,0,0.2);
 }
 
 .main-header h1 {
     text-align: center;
+    margin-bottom: 20px;
+
     font-weight: 300;
     font-size: 50px;
     font-family: 'Open Sans','helvetica',arial,sans-serif;
-    text-shadow: 0 1px rgba(0,0,0,0.3);
+
     color: white;
-    margin-bottom: 20px;
+    text-shadow: 0 1px rgba(0,0,0,0.3);
 }   
