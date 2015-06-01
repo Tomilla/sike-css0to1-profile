@@ -75,8 +75,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .info-section {
-    padding: 1px;
+    padding: 30px 60px;
     background-color: #fff;
+
+    font-zise: 28px;
+    text-trasform: uppercase;
+    letter-spacing: 3px;
+}
+
+.info-section header h2 {
+    text-align: center;
+}
+
+.info-section__description {
+    font-style: italic;
 }
 
 .whatido__skill-list {
@@ -89,7 +101,14 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
     background-position: center top;
 
+    width: 33%;
+    float: left;
     padding-top: 100px;
+    margin-top: 60px;   
+}
+
+.whatido__skill h3 {
+    text-align: center;
 }
 
 .whatido__skill--code {
