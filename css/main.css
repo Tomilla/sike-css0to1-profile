@@ -142,9 +142,6 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
 }
 
-.education-experience__list li p h3 {
-
-}
 .education-experience__list {
     text-align: left;
     list-style: none;
@@ -158,6 +155,30 @@ h1, h2, h3, h4, h5, h6 {
     margin: 60px;
 }
 
-.education-experience__title {
+html {
+    box-sizing: border-box;
 }
 
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+.photos__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    overflow: hidden;
+}
+
+.photos__list li {
+    float: left;
+    width: 25%;
+
+    padding: 10px;
+    margin: 0;
+}
+
+.photos__list li img {
+    width: 100%;
+}
