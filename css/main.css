@@ -182,3 +182,19 @@ html {
 .photos__list li img {
     width: 100%;
 }
+
+.get-in-touch__list {
+    list-style: none;
+    padding-top: 50px;
+    margin: 0;
+
+    overflow: hidden;   
+}
+
+.get-in-touch__list li {
+    float: left;
+    width: 25%;
+
+    text-align: center;
+}
+
