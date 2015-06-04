@@ -161,12 +161,20 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
           <h2>Or...Leave a Message</h2>
         </header>
         <form action="">
-          <label for="name">Name</label>
-          <input name="name" id="name" type="text">
-          <label for="email">Email</label>
-          <input name="email" id="email" type="email">
-          <label for="message">Message</label>
-          <textarea name="message" id="message"></textarea>
+          <ul class="contact__list">
+            <li>
+              <label for="name">Name</label>
+              <input name="name" id="name" type="text">
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input name="email" id="email" type="email">
+            </li>
+            <li>
+              <label for="message">Message</label>
+              <textarea name="message" id="message"></textarea>
+            </li>
+          </ul>
           <button type="submit">Submit</button>
         </form>
       </section>

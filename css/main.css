@@ -195,6 +195,48 @@ html {
     float: left;
     width: 25%;
 
-    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.contact__list {
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.contact__list li {
+    margin: 20px;
+}
+
+.contact__list label {
+    position: absolute;
+    padding: 8px;
+    text-align: right;
+    right: 68%;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+    width: 30%;
+}
+
+.contact input,
+.contact textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact button {
+    border: none;
+    border-radius: 9999px;
+
+    background: #ffd524;
+
+    cursor: pointer;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    color: #fff;
+    box-shadow: 0 3px 0 #daae1d;
 }
 
