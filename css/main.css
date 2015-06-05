@@ -19,6 +19,12 @@ h1, h2, h3, h4, h5, h6 {
     margin: 180px auto;
 }
 
+@media only screen and (max-width : 480px) {
+    .container {
+      width: 100%;
+     }   
+}
+
 .main-header {
     background-image: url(../img/banner.jpg);
     padding: 1px;
